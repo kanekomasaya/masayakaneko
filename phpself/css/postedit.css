@@ -1,0 +1,85 @@
+
+body {
+	font-family: 'Yu Gothic', 'futura';
+	margin: 0;
+	padding: 0;
+}
+
+/* //////////////////////////////////header///////////////// */
+header {
+	display: flex;
+	width: 100%;
+  align-items: flex-end;
+	background-color: black;
+}
+
+header .header_contents {
+	display: flex;
+	padding-bottom: 25px;
+}
+
+.thumbs {
+	margin-left: 200px;
+}
+
+.header_name {
+	margin-left: 50px;
+	font-size: 35px;
+}
+
+.header_name p a {
+	text-decoration: none;
+		color: white;
+}
+
+.header_contents p {
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+.header_contents p a {
+		text-decoration: none;
+		color: white;
+}
+
+/* //////////////////////////////////secton3///////////////// */
+.fish_box {
+	margin: 0 auto;
+  width: 54px;
+}
+
+.fish {
+	color: #0F90E3;
+}
+
+.section1 {
+	width: 100%;
+}
+
+.section1_wrapper {
+	width: 630px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.entry {
+	width: 600px;
+	height: 40px;
+	border-color: white;
+	margin-bottom: 20px;
+}
+
+.sec1_text h1 {
+	border-bottom: 2px solid #8ED0F9;
+}
+
+.submit {
+	width: 600px;
+	border-radius: 50px;
+	padding: 15px 0px;
+	font-size: 15px;
+}
+
+h2 {
+	color: red;
+}

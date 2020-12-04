@@ -1,0 +1,62 @@
+
+body {
+	font-family: 'Yu Gothic', 'futura';
+	margin: 0;
+	padding: 0;
+}
+/* //////////////////////////////////seuction1///////////////// */
+h1	{
+	margin-left: 150px;
+	padding: 50px 0 0 0;
+}
+
+.section1 {
+	width: 100%;
+}
+
+
+i {
+	margin-right: 10px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+table tr{
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+}
+
+table tr:hover{
+  background-color: #d4f0fd;
+}
+
+table th,table td{
+  text-align: center;
+  width: 5%;
+  padding: 10px 0;
+}
+/* //////////////////////////////////seuction2///////////////// */
+.blue {
+	color: blue;
+}
+
+.alert {
+	font-size: 20px;
+	margin-left: 300px;
+	margin-top: 100px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+	.alert {
+		margin-right: 150px;
+		margin-left: 150px;
+	}
+	h1 {
+		margin-right: 150px;
+	}
+}

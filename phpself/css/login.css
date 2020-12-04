@@ -1,0 +1,50 @@
+
+body {
+	font-family: 'Yu Gothic', 'futura';
+	margin: 0;
+	padding: 0;
+}
+/* //////////////////////////////////secton3///////////////// */
+.fish {
+	color: #0F90E3;
+}
+
+.section1 {
+	width: 100%;
+}
+
+.section1_wrapper {
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.section1_text {
+	text-align: center;
+}
+
+.form_login {
+	margin-top: 20px;
+}
+
+.entry {
+	width: 600px;
+	height: 40px;
+	border-color: white;
+}
+
+.form_login input {
+	width: 600px;
+	border-radius: 50px;
+	padding: 15px 0px;
+	font-size: 15px;
+}
+
+.new {
+	color: #0F90E3;
+	text-decoration: none;
+}
+
+p.login {
+	color: blue;
+}

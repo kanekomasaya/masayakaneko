@@ -1,0 +1,70 @@
+
+body {
+	font-family: 'Yu Gothic', 'futura';
+	margin: 0;
+	padding: 0;
+}
+
+/* //////////////////////////////////seuction1///////////////// */
+.section1 {
+	width: 100%;
+	height: 85.3vh;
+	background-image: url("../img/49656838953651fb1e8af6791d98a9bd.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode:lighten;
+	opacity: 0.7;
+}
+
+.section1_wrapper {
+	margin-left: 250px;
+}
+
+.catchcopy {
+	padding-top: 60px;
+}
+
+.catchcopy h2 {
+	font-size: 30px;
+	margin: 0px;
+}
+
+.site_detail {
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+i {
+	margin-right: 10px;
+}
+
+.form {
+	font-size: 30px;
+	margin: 60px 0px;
+	font-weight: bold;
+}
+
+.form input.name {
+	height: 40px;
+	width: 500px;
+	padding-left: 10px;
+}
+
+.form input.submit {
+	width: 70px;
+	height: 30px;
+}
+/* //////////////////////////////////seuction2///////////////// */
+@media screen and (max-width: 1100px) {
+	.section1 {
+		height: 100vh;
+	}
+	.section1_wrapper {
+		margin-left: 50px;
+	}
+
+	.form input.name {
+		width: 250px;
+	}
+}
