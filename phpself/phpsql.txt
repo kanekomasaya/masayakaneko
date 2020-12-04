@@ -1,0 +1,53 @@
+-- PHP のバージョン: 7.4.1
+
+-- データベース: `fising`
+--
+
+-- --------------------------------------------------------
+-- テーブルの構造 `user`
+--
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `name` varchar(128) NOT NULL,
+  `katakana` varchar(64) NOT NULL,
+  `password` varchar(64) NOT NULL,
+  `tel` int(11) NOT NULL,
+  `address` varchar(256) NOT NULL,
+  `roll` int(11) NOT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL
+)  DEFAULT CHARSET=utf8;
+
+
+
+-- --------------------------------------------------------
+-- テーブルの構造 `fish`
+--
+--
+
+CREATE TABLE `fish` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `catch_who` varchar(64) NOT NULL,
+  `fish` varchar(64) NOT NULL,
+  `catch_at` int(11) NOT NULL,
+  `catch_time` datetime NOT NULL,
+  `catch_weather` varchar(64) NOT NULL,
+  `img` BLOB DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL
+)  DEFAULT CHARSET=utf8;
+
+
+
+-- --------------------------------------------------------
+-- テーブルの構造 `favorite`
+--
+--
+
+CREATE TABLE `favorite` (
+  `liked_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+)  DEFAULT CHARSET=utf8;
